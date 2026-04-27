@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: { default: "ToolHive — Free Online Tools", template: "%s | ToolHive" },
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Sidebar />
           <main className="flex-1 p-6 md:p-10 max-w-4xl mx-auto w-full">{children}</main>
         </div>
+        <Analytics />
       </body>
     </html>
   );
