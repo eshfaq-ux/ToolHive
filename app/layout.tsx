@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
 import { Analytics } from "@vercel/analytics/next";
-import Script from "next/script";
 
 export const metadata: Metadata = {
   title: { default: "ToolHive — Free Online Tools", template: "%s | ToolHive" },
@@ -16,12 +15,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3080157931367351"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3080157931367351" crossOrigin="anonymous" />
       </head>
       <body className="min-h-screen" style={{ background: "#0f1117", color: "#f0f2ff" }}>
         <div className="flex min-h-screen">
