@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import ToolPage from "@/components/ToolPage";
 import PercentageCalculator from "@/components/tools/PercentageCalculator";
 
-const url = "https://toolhive.vercel.app/tools/percentage-calculator";
+const url = "https://tool-hive-sigma.vercel.app/tools/percentage-calculator";
 
 export const metadata: Metadata = {
   title: "Percentage Calculator — Free Online",

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import ToolPage from "@/components/ToolPage";
 import LoanCalculator from "@/components/tools/LoanCalculator";
 
-const url = "https://toolhive.vercel.app/tools/loan-calculator";
+const url = "https://tool-hive-sigma.vercel.app/tools/loan-calculator";
 
 export const metadata: Metadata = {
   title: "Loan Calculator — Monthly Payment & Interest",

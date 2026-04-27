@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import ToolPage from "@/components/ToolPage";
 import SlugGenerator from "@/components/tools/SlugGenerator";
 
-const url = "https://toolhive.vercel.app/tools/slug-generator";
+const url = "https://tool-hive-sigma.vercel.app/tools/slug-generator";
 
 export const metadata: Metadata = {
   title: "Slug Generator — URL-Friendly Text Converter",

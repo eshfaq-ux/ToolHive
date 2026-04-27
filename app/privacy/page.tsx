@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Privacy Policy for ToolHive — how we handle your data.",
-  alternates: { canonical: "https://toolhive.vercel.app/privacy" },
+  alternates: { canonical: "https://tool-hive-sigma.vercel.app/privacy" },
 };
 
 export default function PrivacyPolicy() {
@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
       {[
         {
           title: "Overview",
-          body: "ToolHive ('we', 'us', 'our') operates the website toolhive.vercel.app. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our service.",
+          body: "ToolHive ('we', 'us', 'our') operates the website tool-hive-sigma.vercel.app. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our service.",
         },
         {
           title: "Data We Collect",
@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
         },
         {
           title: "Contact Us",
-          body: "If you have any questions about this Privacy Policy, please contact us at: privacy@toolhive.vercel.app",
+          body: "If you have any questions about this Privacy Policy, please contact us at: privacy@tool-hive-sigma.vercel.app",
         },
       ].map(({ title, body }) => (
         <section key={title}>

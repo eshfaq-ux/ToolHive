@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import ToolPage from "@/components/ToolPage";
 import ImageCompressor from "@/components/tools/ImageCompressor";
 
-const url = "https://toolhive.vercel.app/tools/image-compressor";
+const url = "https://tool-hive-sigma.vercel.app/tools/image-compressor";
 
 export const metadata: Metadata = {
   title: "Free Image Compressor Online",

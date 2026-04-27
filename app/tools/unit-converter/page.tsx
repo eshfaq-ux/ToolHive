@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import ToolPage from "@/components/ToolPage";
 import UnitConverter from "@/components/tools/UnitConverter";
 
-const url = "https://toolhive.vercel.app/tools/unit-converter";
+const url = "https://tool-hive-sigma.vercel.app/tools/unit-converter";
 
 export const metadata: Metadata = {
   title: "Unit Converter — Length, Weight, Temperature",

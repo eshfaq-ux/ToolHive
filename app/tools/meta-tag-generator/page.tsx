@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import ToolPage from "@/components/ToolPage";
 import MetaTagGenerator from "@/components/tools/MetaTagGenerator";
 
-const url = "https://toolhive.vercel.app/tools/meta-tag-generator";
+const url = "https://tool-hive-sigma.vercel.app/tools/meta-tag-generator";
 
 export const metadata: Metadata = {
   title: "Meta Tag Generator — Free SEO Tool",

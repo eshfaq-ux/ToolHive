@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import ToolPage from "@/components/ToolPage";
 import ImageResizer from "@/components/tools/ImageResizer";
 
-const url = "https://toolhive.vercel.app/tools/image-resizer";
+const url = "https://tool-hive-sigma.vercel.app/tools/image-resizer";
 
 export const metadata: Metadata = {
   title: "Free Image Resizer Online",

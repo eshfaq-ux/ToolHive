@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/next";
 export const metadata: Metadata = {
   title: { default: "ToolHive — Free Online Tools", template: "%s | ToolHive" },
   description: "Free online tools for images, math, finance, and SEO. Fast, private, no signup required.",
-  metadataBase: new URL("https://toolhive.vercel.app"),
+  metadataBase: new URL("https://tool-hive-sigma.vercel.app"),
   openGraph: { siteName: "ToolHive", type: "website" },
 };
 

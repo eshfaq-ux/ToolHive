@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "ToolHive — Free Online Tools",
   description: "Free online tools for images, math, finance, and SEO. No signup, no cost, runs in your browser.",
-  alternates: { canonical: "https://toolhive.vercel.app" },
+  alternates: { canonical: "https://tool-hive-sigma.vercel.app" },
 };
 
 const categories = [

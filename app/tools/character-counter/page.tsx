@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import ToolPage from "@/components/ToolPage";
 import CharacterCounter from "@/components/tools/CharacterCounter";
 
-const url = "https://toolhive.vercel.app/tools/character-counter";
+const url = "https://tool-hive-sigma.vercel.app/tools/character-counter";
 
 export const metadata: Metadata = {
   title: "Character Counter — Word & Sentence Count Online",
