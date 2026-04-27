@@ -36,7 +36,7 @@ export default function ToolPage({
       {/* AdSense top */}
       <div className="w-full h-14 rounded-xl flex items-center justify-center text-xs"
         style={{ background: "#1c1f2e", border: "1.5px dashed #4a4e6a", color: "#4a4e6a" }}>
-        Ad slot — 728×90
+        Ad
       </div>
 
       <div className="p-6 rounded-2xl" style={{ background: "#1c1f2e", border: "1.5px solid #353849" }}>
@@ -46,7 +46,7 @@ export default function ToolPage({
       {/* AdSense bottom */}
       <div className="w-full h-14 rounded-xl flex items-center justify-center text-xs"
         style={{ background: "#1c1f2e", border: "1.5px dashed #4a4e6a", color: "#4a4e6a" }}>
-        Ad slot — 728×90
+        Ad
       </div>
 
       {faqs && faqs.length > 0 && (
