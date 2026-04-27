@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+body {
+  background: #0f1117;
+  color: #f0f2ff;
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: #7c6af733; color: #f0f2ff; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0f1117; }
+::-webkit-scrollbar-thumb { background: #4a4e6a; border-radius: 3px; }
+
+.input {
+  background: #0a0c12;
+  border: 1.5px solid #4a4e6a;
+  border-radius: 0.5rem;
+  padding: 0.55rem 0.85rem;
+  font-size: 0.875rem;
+  color: #f0f2ff;
+  width: 100%;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.input:hover  { border-color: #a89cf8; }
+.input:focus  { border-color: #7c6af7; box-shadow: 0 0 0 3px #7c6af722; }
+.input::placeholder { color: #4a4e6a; }
+
+.btn {
+  padding: 0.55rem 1.4rem;
+  background: #7c6af7;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  border: none;
+  transition: background 0.15s, transform 0.1s;
+}
+.btn:hover  { background: #a89cf8; }
+.btn:active { transform: scale(0.97); }
+
+.btn-ghost {
+  padding: 0.5rem 1.1rem;
+  background: #252839;
+  color: #f0f2ff;
+  border: 1.5px solid #4a4e6a;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.btn-ghost:hover { border-color: #7c6af7; background: #1c1f2e; }
+
+.card {
+  background: #252839;
+  border: 1.5px solid #353849;
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.tag {
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  border: 1.5px solid #4a4e6a;
+  background: #1c1f2e;
+  color: #9da3c8;
+  transition: all 0.15s;
+}
+.tag:hover { border-color: #a89cf8; color: #f0f2ff; }
+.tag.active { background: #7c6af722; color: #a89cf8; border-color: #7c6af7; }
+
+.dropzone {
+  border: 2px dashed #4a4e6a;
+  border-radius: 0.75rem;
+  padding: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.dropzone:hover { border-color: #7c6af7; background: #7c6af70a; }
+
+select.input option { background: #1c1f2e; color: #f0f2ff; }
