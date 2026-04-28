@@ -9,6 +9,11 @@ const tools = [
   "/tools/meta-tag-generator",
   "/tools/slug-generator",
   "/tools/character-counter",
+  "/tools/bmi-calculator",
+  "/tools/case-converter",
+  "/tools/base64-encoder-decoder",
+  "/tools/url-encoder-decoder",
+  "/tools/password-generator",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

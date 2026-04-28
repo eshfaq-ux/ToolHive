@@ -12,11 +12,20 @@ const nav = [
     { name: "Percentage Calc", href: "/tools/percentage-calculator" },
     { name: "Loan Calculator", href: "/tools/loan-calculator" },
     { name: "Unit Converter", href: "/tools/unit-converter" },
+    { name: "BMI Calculator", href: "/tools/bmi-calculator" },
   ]},
   { label: "🔍 SEO Tools", items: [
     { name: "Meta Tag Generator", href: "/tools/meta-tag-generator" },
     { name: "Slug Generator", href: "/tools/slug-generator" },
     { name: "Character Counter", href: "/tools/character-counter" },
+  ]},
+  { label: "✏️ Text Tools", items: [
+    { name: "Case Converter", href: "/tools/case-converter" },
+    { name: "Base64 Encoder/Decoder", href: "/tools/base64-encoder-decoder" },
+    { name: "URL Encoder/Decoder", href: "/tools/url-encoder-decoder" },
+  ]},
+  { label: "🔐 Security", items: [
+    { name: "Password Generator", href: "/tools/password-generator" },
   ]},
 ];
 

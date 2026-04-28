@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "ToolHive — Free Online Tools",
-  description: "Free online tools for images, math, finance, and SEO. No signup, no cost, runs in your browser.",
+  description: "Free online tools for images, math, finance, SEO, and text. No signup, no cost, runs in your browser.",
   alternates: { canonical: "https://tool-hive-sigma.vercel.app" },
 };
 
@@ -23,6 +23,7 @@ const categories = [
       { name: "Percentage Calculator", href: "/tools/percentage-calculator", desc: "Calculate percentages instantly" },
       { name: "Loan Calculator", href: "/tools/loan-calculator", desc: "Monthly payments & total interest" },
       { name: "Unit Converter", href: "/tools/unit-converter", desc: "Convert length, weight, temperature & more" },
+      { name: "BMI Calculator", href: "/tools/bmi-calculator", desc: "Calculate Body Mass Index instantly" },
     ],
   },
   {
@@ -32,6 +33,22 @@ const categories = [
       { name: "Meta Tag Generator", href: "/tools/meta-tag-generator", desc: "Generate SEO meta tags instantly" },
       { name: "Slug Generator", href: "/tools/slug-generator", desc: "Convert text to URL-friendly slugs" },
       { name: "Character Counter", href: "/tools/character-counter", desc: "Count characters, words, and sentences" },
+    ],
+  },
+  {
+    name: "Text Tools",
+    emoji: "✏️",
+    tools: [
+      { name: "Case Converter", href: "/tools/case-converter", desc: "Convert text to any case format" },
+      { name: "Base64 Encoder / Decoder", href: "/tools/base64-encoder-decoder", desc: "Encode or decode Base64 strings" },
+      { name: "URL Encoder / Decoder", href: "/tools/url-encoder-decoder", desc: "Encode or decode URLs instantly" },
+    ],
+  },
+  {
+    name: "Security",
+    emoji: "🔐",
+    tools: [
+      { name: "Password Generator", href: "/tools/password-generator", desc: "Generate strong random passwords" },
     ],
   },
 ];
