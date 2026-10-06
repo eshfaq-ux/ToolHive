@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ToolHive
 
-## Getting Started
+A privacy-first utility platform built for fast, browser-side productivity tools covering images, SEO, finance, and math workflows.
 
-First, run the development server:
+## Overview
+
+ToolHive is a collection of small, focused digital utilities designed to be fast, useful, and client-side focused. The project emphasizes simplicity and usefulness over heavy infrastructure, with streamlined experiences for routine tasks.
+
+## Features
+
+- **Image tools** — Transformations, optimizations, and conversions
+- **SEO utilities** — Content analysis, keyword research helpers
+- **Finance tools** — Calculators, converters, financial workflows
+- **Math utilities** — Quick calculations and problem solving
+- **Privacy-first** — Client-side processing, no unnecessary backend dependency
+- **Fast performance** — Lightweight, instant-loading tools
+- **Clean UX** — Simple, intuitive interfaces
+
+## Design philosophy
+
+- Keep tools practical and useful
+- Prioritize speed and simplicity
+- Avoid unnecessary backend complexity
+- Make utilities accessible and easy to use
+- Process data client-side for privacy
+
+## Tech stack
+
+- Next.js
+- TypeScript
+- React
+- Tailwind CSS
+- Client-side processing libraries
+
+## Local development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Production build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Use cases
 
-## Learn More
+- Quick content and image utilities
+- SEO research and analysis helpers
+- Finance, conversion, and calculation tasks
+- Lightweight daily problem-solving tools
+- Privacy-conscious workflows (no server dependency)
 
-To learn more about Next.js, take a look at the following resources:
+## Tool categories
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Image Processing** — Resize, convert, optimize images
+- **SEO Tools** — Meta tags, keyword analysis, readability checks
+- **Finance** — Currency conversion, loan calculators, financial planning
+- **Math & Conversions** — Unit converters, calculators, calculations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Design principles
 
-## Deploy on Vercel
+- One tool, one purpose
+- Fast load times
+- No unnecessary features
+- Mobile-friendly
+- Accessible to all users
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploy to Vercel or similar hosting with one command.
+
+## Contact
+
+- GitHub: https://github.com/eshfaq-ux
+- Email: eshfaqnabi11@gmail.com
+- Website: https://tool-hive-sigma.vercel.app
+
+---
+
+A modern utility toolkit for speed, simplicity, and everyday digital productivity.
